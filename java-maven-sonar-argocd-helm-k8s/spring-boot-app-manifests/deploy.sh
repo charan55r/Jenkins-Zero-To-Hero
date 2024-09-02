@@ -1,5 +1,5 @@
 #!/bin/bash
  
-sed -i "s/\${IMAGE_TAG}/${BUILD_NUMBER}/g" deployment.yaml
+sed -i "s/\${IMAGE_TAG}/${BUILD_NUMBER}/g" deployment.yml
  
-kubectl apply -f .
+kubectl apply -f deployment.yml
