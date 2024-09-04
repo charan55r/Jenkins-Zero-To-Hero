@@ -19,5 +19,5 @@ spec:
         image: 343192457610.dkr.ecr.ap-south-1.amazonaws.com/poc-snapwork:94
         ports:
         - containerPort: 8080
-      imagePullSecret:
+      imagePullSecrets:
       - name: ecr-secret
