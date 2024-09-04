@@ -15,7 +15,7 @@ spec:
         app: spring-boot-app
     spec:
       containers:
-      - name: spring-boot-app
+      - name: spring-boot-ap
         image: 343192457610.dkr.ecr.ap-south-1.amazonaws.com/poc-snapwork:${IMAGE_TAG}
         ports:
         - containerPort: 8080
