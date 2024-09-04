@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-ap
-        image: 343192457610.dkr.ecr.ap-south-1.amazonaws.com/poc-snapwork:${BUILD_NUMBER}
+        image: 343192457610.dkr.ecr.ap-south-1.amazonaws.com/poc-snapwork:89
         ports:
         - containerPort: 8080
